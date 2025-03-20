@@ -19,23 +19,7 @@ The **Website Tracker** Chrome extension helps you monitor and manage your web b
   - **Block:** Blocks access to specified websites.
 
 
-## Installation
 
-To install the extension, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ````bash
-   git clone https://github.com/ankitjha2603/website-tracker.git
-   ````
-
-2. Open Chrome and navigate to chrome://extensions/.
-
-3. Enable "Developer mode" in the top right corner.
-
-4. Click on "Load unpacked" and select the directory where you cloned the extension repository.
-
-5. The extension will be added to Chrome, and you can start using it immediately.
 
 ## Usage
 

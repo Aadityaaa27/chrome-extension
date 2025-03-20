@@ -1,45 +1,76 @@
-# Website Tracker Chrome Extension
-
-The **Website Tracker** Chrome extension helps you monitor and manage your web browsing habits by tracking the time spent on each website. Additionally, it provides analytics in the form of graphs and charts, allowing you to visualize your usage patterns.
-
-![The "Website Tracker" Chrome extension helps you monitor and manage your web browsing habits by tracking the time spent on each website. Additionally, it provides analytics in the form of graphs and charts, allowing you to visualize your usage patterns.](C:\Users\lenovo\Pictures\Camera Roll\graph (1).gifupdate.gif)
-
-
-
-## Features
-
-- **Real-time Tracking:** Tracks the websites you are currently using in real-time.
-- **Popup Analytics:** Clicking on the extension icon opens a popup displaying the time spent on the currently open website.
-- **Daily and Monthly Analytics:** View detailed analytics of your website usage on a daily and monthly basis.
-- **Pie Chart:** Provides a pie chart summarizing the overall distribution of your time spent on different websites.
-- **You can limit the website usage to:**
-  - **None:** No limitations on website usage.
-  - **Ignore:** Ignores tracking for specified websites.
-  - **Time Limit:** Sets a daily time limit for specific websites. Exceeding the limit may block the website for the remainder of the day.
-  - **Block:** Blocks access to specified websites.
+COMPANY:CODTECH IT SOLUTIONS
+NAME:AADITYA SHARMA
+INTERN ID:CT12GGJ
+DOMAIN:FULL STACK WEB DEVELOPMENT
+DURATION:8 WEEKS 
+MENTOR:NEELA SANTOSH
 
 
 
+Project Overview:
 
-## Usage
+The goal of this project is to build a Chrome Extension that monitors user activity across different tabs and websites, records time spent on each site, and presents the data through interactive and visually appealing dashboards. It is especially useful for professionals, students, and freelancers who wish to optimize their online time usage.
+Key Features:
 
-1. Install the extension.
-2. Click on the extension icon to access the popup with real-time analytics.
-3. Explore the daily and monthly graphs to understand your browsing habits.
-4. Set limitations or blocks for specific websites through the extension settings.
+    Time Tracking:
+        Automatically tracks time spent on various websites.
+        Logs active tabs and records duration of activity.
+        Pauses tracking when the user is inactive for a specified period.
 
-## Technology Used
+    Website Categorization:
+        Allows users to categorize websites (e.g., Work, Entertainment, Social Media, Learning, etc.).
+        Provides default categories with options to create custom ones.
+        Tracks category-wise productivity and visualizes data.
 
-This Chrome extension leverages a stack of technologies, with a primary focus on JavaScript:
+    Productivity Analysis:
+        Generates daily, weekly, and monthly reports.
+        Displays statistics through graphs and charts (e.g., bar charts, pie charts).
+        Compares productivity levels over time and suggests improvements.
 
-- **JavaScript**: The core programming language driving the dynamic behavior and functionality of the extension.
+    Goal Setting & Notifications:
+        Allows users to set daily or weekly productivity goals.
+        Provides real-time alerts when exceeding time limits on non-productive sites.
+        Encourages productivity streaks and achievements.
 
-- **HTML**: Used for structuring the content and defining the basic layout of the extension.
+    User-Friendly Interface:
+        Simple and intuitive UI integrated within the Chrome toolbar.
+        Easy-to-understand dashboards powered by libraries like Chart.js .
+       
 
-- **CSS**: Employed for styling and presentation, ensuring a visually pleasing and consistent user interface.
+    Data Privacy:
+        Stores data locally on the user’s device.
+        Provides the option to backup data to cloud services if needed.
 
-- **Bootstrap**: Integrated to enhance the design and responsiveness of the extension's UI components.
+    Customizable Settings:
+        Users can exclude specific websites from tracking.
+        Option to manually add or edit time entries.
+        Dark and light themes for better accessibility.
 
-- **Chart.js**: Utilized for creating interactive and visually appealing charts within the extension.
+Technical Stack:
 
-- **Chrome Storage (chrome.storage.local)**: Incorporated to manage local storage, enabling the extension to persistently store and retrieve data.
+    Frontend:
+        HTML, CSS, JavaScript (React can be used for building dynamic interfaces).
+        TailwindCSS or Bootstrap for styling.
+
+    Backend (Optional):
+        Can be built using Node.js, Express for storing user data if cloud storage is desired.
+
+    APIs & Libraries:
+        Chrome Extension APIs (e.g., chrome.tabs, chrome.storage, chrome.runtime).
+        
+
+How It Works:
+
+    The extension runs as a background script that listens to browser events such as tab updates, switching, and idle status.
+    Time spent on each active tab is recorded and associated with a specific category.
+    Data is processed and displayed via the popup interface when the user clicks on the extension icon.
+    Reports and analytics are generated based on collected data, providing insights and recommendations.
+
+Future Enhancements:
+
+    Adding AI-driven insights to suggest productivity improvements.
+    Implementing syncing across multiple devices.
+    Creating a habit-building system to encourage productive patterns.
+    Integrating with popular productivity tools like Trello, Notion, and Todoist.
+
+This project will provide users with a powerful tool to track their online activities, analyze their productivity trends, and make data-driven decisions to enhance their efficiency
